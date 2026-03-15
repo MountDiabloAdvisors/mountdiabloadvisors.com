@@ -1,22 +1,100 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mount Diablo Advisors | Technology & FinTech Advisory</title>
-    <meta name="description" content="Boutique advisory service specializing in technology and FinTech. From blockchain to equity options trading, we help entrepreneurs refine ideas and solve difficult problems." />
-    <meta name="author" content="Mount Diablo Advisors" />
-
-    <meta property="og:title" content="Mount Diablo Advisors | Technology & FinTech Advisory" />
-    <meta property="og:description" content="Boutique advisory service specializing in technology and FinTech. From blockchain to equity options trading, we help entrepreneurs refine ideas and solve difficult problems." />
-    <meta property="og:type" content="website" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Mount Diablo Advisors | Technology & FinTech Advisory" />
-  </head>
-
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <meta name="description" content="Boutique advisory service specializing in technology and FinTech. From blockchain to equity options trading, we help entrepreneurs refine ideas and solve difficult problems.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: #fafafa;
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem 1rem;
+        }
+        header {
+            max-width: 48rem;
+            width: 100%;
+            margin-bottom: 3rem;
+            text-align: center;
+        }
+        header img {
+            width: 100%;
+            max-width: 32rem;
+            height: auto;
+        }
+        main {
+            max-width: 48rem;
+            width: 100%;
+        }
+        .hero {
+            margin-bottom: 3rem;
+        }
+        .hero img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        section {
+            text-align: center;
+            padding: 0 1rem;
+        }
+        p {
+            font-size: 1.125rem;
+            line-height: 1.75;
+            max-width: 48rem;
+            margin: 0 auto 1.5rem;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: underline;
+        }
+        a:hover {
+            color: #004499;
+        }
+        footer {
+            margin-top: auto;
+            padding-top: 3rem;
+            color: #666;
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="assets/logo.png" alt="Mount Diablo Advisors - Boutique advisory service specializing in technology and FinTech">
+    </header>
+    
+    <main>
+        <div class="hero">
+            <img src="assets/hero-image.jpg" alt="Mount Diablo landscape - golden hills of California">
+        </div>
+        
+        <section>
+            <p>
+                Mount Diablo Advisors is a boutique advisory service specializing in technology and FinTech. 
+                From blockchain to equity options trading, we help entrepreneurs refine their ideas, market 
+                and finance them, and solve their difficult problems.
+            </p>
+            <p>
+                For inquiries, please send email to 
+                <a href="mailto:info@mountdiabloadvisors.com">info@mountdiabloadvisors.com</a>.
+            </p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 Mount Diablo Advisors</p>
+    </footer>
+</body>
 </html>
